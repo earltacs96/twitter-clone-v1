@@ -8,11 +8,19 @@ main {
 }
 
 div.body {
-    @apply flex flex-row
+    @apply h-full w-full flex flex-row
 }
 
 div.content {
-    @apply w-4/6
+    @apply w-4/6 h-full
+}
+
+div.center {
+    @apply w-6/12 h-full py-4 px-6 border-r border-l border-r-neutral-200 border-l-neutral-200
+}
+
+div.side {
+    @apply w-6/12
 }
 
 div.sidebar {
@@ -20,7 +28,7 @@ div.sidebar {
 }
 
 div.sidebar-content {
-    @apply w-7/12
+    @apply w-5/12
 }
 
 div.icon {
